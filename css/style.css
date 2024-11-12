@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif  ;
+    background-color: #4F518C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    background-color: #2C2A4A;
+    padding:1rem;
+    margin-top: 1rem;
+    width: 700px;
+    max-width: 90%;
+    margin: auto;
+}
+.draggable{
+    padding:1rem;
+    background-color: #907AD6;
+    border: 1px solid #000;
+    cursor: move;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dragging{
+    opacity: 0.5;
+}
